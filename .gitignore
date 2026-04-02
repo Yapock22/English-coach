@@ -1,0 +1,4 @@
+# Exclure le fichier .env
+.env
+# Ignorer les fichier .json
+*.json
