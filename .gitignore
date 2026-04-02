@@ -2,3 +2,5 @@
 .env
 # Ignorer les fichier .json
 *.json
+# Claude Code
+CLAUDE.md
