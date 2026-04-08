@@ -1,12 +1,9 @@
 import streamlit as st
-import os
-from dotenv import load_dotenv
 import json
 import re
 import requests
 
-load_dotenv()
-CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
+CLAUDE_API_KEY = st.secrets["CLAUDE_API_KEY"]
 
 SYSTEM_PROMPT = """
 You are a personal English coach.
