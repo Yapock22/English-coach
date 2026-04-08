@@ -4,3 +4,5 @@
 *.json
 # Claude Code
 CLAUDE.md
+# Streamlit secrets
+.streamlit/secrets.toml
