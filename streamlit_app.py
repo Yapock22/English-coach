@@ -317,7 +317,7 @@ with col_main:
         corrected_html = f'<div class="corrected-box">"{corr_highlighted}"</div>'
     else:
         original_html = ""
-        corrected_html = '<div style="color:#c1c7d2;font-style:italic;font-size:0.85rem;">Your corrected sentence will appear here…</div>'
+        corrected_html = ""
 
     st.markdown(f"""
     <div class="zone">
